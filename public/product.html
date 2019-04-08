@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Products</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+  <script defer src="./js/product.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="vendor.html">Vendors</a>
+    <a href="product.html">Poducts</a>
+    <a href="cart.html">My Cart</a>
+  </div>
+  <div class="input_bars">
+    <table>
+      <tr>
+        <td>Product Name</td>
+        <td style="text-align:center">:</td>
+        <td><input id="product_name" type="text" placeholder="" /></td>
+      </tr>
+      <tr>
+        <td>Price</td>
+        <td style="text-align:center">:</td>
+        <td><input id="product_price" type="number" /></td>
+      </tr>
+      <tr>
+        <td>Quantity</td>
+        <td style="text-align:center">:</td>
+        <td><input id="product_qty" type="number" /></td>
+      </tr>
+      <tr>
+        <td>Select Vendor</td>
+        <td style="text-align:center">:</td>
+        <td><select id="vendor_dropdown"></select></td>
+      </tr>
+      <tr>
+        <td><button id="add_product">Add Product</button></td>
+      </tr>
+    </table>
+  </div>
+  <table id="products_table">
+    <tr>
+      <th>Id</th>
+      <th>Vendor</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Quantity</th>
+      <th></th>
+    </tr>
+  </table>
+</body>
+
+</html>

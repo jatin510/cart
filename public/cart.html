@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css">
+    <script defer src="./js/cart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+</head>
+
+<body>
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="vendor.html">Vendors</a>
+        <a href="product.html">Poducts</a>
+        <a href="cart.html">My Cart</a>
+    </div>
+    <div class="input_bars">
+        <table>
+            <tr>
+                <td><input type="text" id="username"></td>
+                <td style="text-align:center"></td>
+                <td><button id="login">Login</button><br></td>
+            </tr>
+            <tr>
+                <td><span id="msg">Login to see your Cart items</span></td>
+            </tr>
+        </table>
+
+    </div>
+    <div>
+        <table id="cart_list">
+            <tr>
+                <th>Vendor</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th></th>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
